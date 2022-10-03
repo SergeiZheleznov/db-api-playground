@@ -1,42 +1,58 @@
 lockfileVersion: 5.3
 
-specifiers:
-  '@playwright/test': ^1.25.0
-  '@sveltejs/adapter-static': next
-  '@sveltejs/kit': next
-  '@typescript-eslint/eslint-plugin': ^5.27.0
-  '@typescript-eslint/parser': ^5.27.0
-  eslint: ^8.16.0
-  eslint-config-prettier: ^8.3.0
-  eslint-plugin-svelte3: ^4.0.0
-  prettier: ^2.6.2
-  prettier-plugin-svelte: ^2.7.0
-  svelte: ^3.44.0
-  svelte-check: ^2.7.1
-  svelte-preprocess: ^4.10.6
-  tslib: ^2.3.1
-  typescript: ^4.7.4
-  vite: ^3.1.0
+importers:
 
-devDependencies:
-  '@playwright/test': 1.26.1
-  '@sveltejs/adapter-static': 1.0.0-next.44
-  '@sveltejs/kit': 1.0.0-next.507_svelte@3.50.1+vite@3.1.4
-  '@typescript-eslint/eslint-plugin': 5.38.1_17e047bdec5ec7c01e9d134b6813cb9c
-  '@typescript-eslint/parser': 5.38.1_eslint@8.24.0+typescript@4.8.4
-  eslint: 8.24.0
-  eslint-config-prettier: 8.5.0_eslint@8.24.0
-  eslint-plugin-svelte3: 4.0.0_eslint@8.24.0+svelte@3.50.1
-  prettier: 2.7.1
-  prettier-plugin-svelte: 2.7.1_prettier@2.7.1+svelte@3.50.1
-  svelte: 3.50.1
-  svelte-check: 2.9.1_svelte@3.50.1
-  svelte-preprocess: 4.10.7_svelte@3.50.1+typescript@4.8.4
-  tslib: 2.4.0
-  typescript: 4.8.4
-  vite: 3.1.4
+  .:
+    specifiers:
+      '@playwright/test': ^1.25.0
+      '@sveltejs/adapter-static': next
+      '@sveltejs/kit': next
+      '@typescript-eslint/eslint-plugin': ^5.27.0
+      '@typescript-eslint/parser': ^5.27.0
+      eslint: ^8.16.0
+      eslint-config-prettier: ^8.3.0
+      eslint-plugin-svelte3: ^4.0.0
+      prettier: ^2.6.2
+      prettier-plugin-svelte: ^2.7.0
+      svelte: ^3.44.0
+      svelte-check: ^2.7.1
+      svelte-preprocess: ^4.10.6
+      tslib: ^2.3.1
+      typescript: ^4.7.4
+      vite: ^3.1.0
+    devDependencies:
+      '@playwright/test': 1.26.1
+      '@sveltejs/adapter-static': 1.0.0-next.44
+      '@sveltejs/kit': 1.0.0-next.507_svelte@3.50.1+vite@3.1.4
+      '@typescript-eslint/eslint-plugin': 5.38.1_17e047bdec5ec7c01e9d134b6813cb9c
+      '@typescript-eslint/parser': 5.38.1_eslint@8.24.0+typescript@4.8.4
+      eslint: 8.24.0
+      eslint-config-prettier: 8.5.0_eslint@8.24.0
+      eslint-plugin-svelte3: 4.0.0_eslint@8.24.0+svelte@3.50.1
+      prettier: 2.7.1
+      prettier-plugin-svelte: 2.7.1_prettier@2.7.1+svelte@3.50.1
+      svelte: 3.50.1
+      svelte-check: 2.9.1_svelte@3.50.1
+      svelte-preprocess: 4.10.7_svelte@3.50.1+typescript@4.8.4
+      tslib: 2.4.0
+      typescript: 4.8.4
+      vite: 3.1.4
+
+  api:
+    specifiers:
+      '@azure/functions': ^3.2.0
+      '@types/node': 16.x
+      typescript: ^4.7.4
+    devDependencies:
+      '@azure/functions': 3.2.0
+      '@types/node': 16.11.63
+      typescript: 4.8.4
 
 packages:
+
+  /@azure/functions/3.2.0:
+    resolution: {integrity: sha512-HbE7iORnYcjLzKNf5mIQRJQDTsVxhoXHRWEZ6KWdGh4e7+F9xTloiBicavbSoVmlAYivenIVpryHanVwsQaHUw==}
+    dev: true
 
   /@esbuild/android-arm/0.15.10:
     resolution: {integrity: sha512-FNONeQPy/ox+5NBkcSbYJxoXj9GWu8gVGJTVmUyoOCKQFDTrHVKgNSzChdNt0I8Aj/iKcsDf2r9BFwv+FSNUXg==}
@@ -217,6 +233,10 @@ packages:
 
   /@types/json-schema/7.0.11:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
+    dev: true
+
+  /@types/node/16.11.63:
+    resolution: {integrity: sha512-3OxnrEQLBz8EIIaHpg3CibmTAEGkDBcHY4fL5cnBwg2vd2yvHrUDGWxK+MlYPeXWWIoJJW79dGtU+oeBr6166Q==}
     dev: true
 
   /@types/node/18.8.0:

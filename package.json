@@ -7,9 +7,6 @@
 		"pnpm": ">=6.26.0"
 	},
 	"scripts": {
-		"start": "vite dev",
-		"startd": "sirv ./src public --cors --single --no-clear --port 8000",
-		"playwright_test": "playwright test",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
